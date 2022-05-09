@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e162a281-3ca0-4b38-8273-42b8121af02e" ChangeDateTime="05/08/2022 15:18:51">
+    <Property Name="ElementName" Value="[dbo].[TEL_VID_CONNECT].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_VID_CONNECT]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_CONNECT" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f6b4dc6a-e065-41a0-8985-26611c9ee088" ChangeDateTime="05/08/2022 15:22:56">
+    <Property Name="ElementName" Value="[dbo].[TEL_OPERATOR].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_OPERATOR]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_OPERATOR" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bd15afe7-076b-42be-a7d5-5079d2674cf6" ChangeDateTime="05/08/2022 15:29:39">
+    <Property Name="ElementName" Value="[dbo].[TEL_MOB_SPR].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_MOB_SPR]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_MOB_TEL" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="58728c68-bfc4-4093-b420-6cde10638dcc" ChangeDateTime="05/08/2022 15:58:08">
+    <Property Name="ElementName" Value="[dbo].[TEL_STAC_SPR].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_STAC_SPR]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_STAC_TEL" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bd6a6d49-d92c-4123-9ea2-6436af933ab0" ChangeDateTime="05/08/2022 17:33:05">
+    <Property Name="ElementName" Value="[dbo].[TEL_MOB].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_MOB]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_MOB" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9d6feed7-b6e8-4003-b8cd-a490a2779906" ChangeDateTime="05/08/2022 17:42:58">
+    <Property Name="ElementName" Value="[dbo].[TEL_STAC].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_STAC]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_STAC" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1591e3a6-aff3-41aa-85e8-a8615cacde7a" ChangeDateTime="05/08/2022 17:52:09">
+    <Property Name="ElementName" Value="[dbo].[TEL_MOB_RAZG].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_MOB_RAZG]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_MOBVIXOD" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="14b22096-3fe9-497d-8d23-7e39e5013c56" ChangeDateTime="05/08/2022 18:01:15">
+    <Property Name="ElementName" Value="[dbo].[TEL_MOB_USL].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_MOB_USL]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_MOB_USL" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="badc8205-cc46-4e10-a2fb-8320a08e3861" ChangeDateTime="05/08/2022 18:07:55">
+    <Property Name="ElementName" Value="[dbo].[TEL_STAC_USL_SPR].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_STAC_USL_SPR]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_STAC_USL_SPR" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dcaa7675-9fa1-44bd-87c4-2fb5c229a379" ChangeDateTime="05/08/2022 18:12:10">
+    <Property Name="ElementName" Value="[dbo].[TEL_STAC_USL_VAR].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_STAC_USL_VAR]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_USL_VAR" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="84eeaeff-ecf1-403f-b984-0cca19f9a659" ChangeDateTime="05/08/2022 18:23:30">
+    <Property Name="ElementName" Value="[dbo].[TEL_STAC_USL].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_STAC_USL]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_STAC_USL" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a5fe9f6d-d824-4931-b73a-221d4d5cfc7b" ChangeDateTime="05/08/2022 18:28:23">
+    <Property Name="ElementName" Value="[dbo].[TEL_RASH].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_RASH]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_TEL_OBSH" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a674ac75-e6aa-4841-8a1c-4f8fece2ace9" ChangeDateTime="05/08/2022 18:32:55">
+    <Property Name="ElementName" Value="[dbo].[TEL_STAC_RAZG].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_STAC_RAZG]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_STAC_RAZG" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dffc9793-ca3d-4b65-9f90-650a5ad003ca" ChangeDateTime="05/08/2022 18:40:59">
+    <Property Name="ElementName" Value="[dbo].[TEL_DOPUSLUGI].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_DOPUSLUGI]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_DOPUSL" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c9cd7b9b-dd9d-4dc1-974b-9fff0bd7b488" ChangeDateTime="05/08/2022 18:54:39">
+    <Property Name="ElementName" Value="[dbo].[TEL_MOB_USL_SPR].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_MOB_USL_SPR]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_MOB_USL_SPR" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b3e98f98-33cf-4bfb-80c0-d93bb3489407" ChangeDateTime="05/08/2022 19:00:17">
+    <Property Name="ElementName" Value="[dbo].[TEL_USLUGI].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_USLUGI]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_USLUG" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e3f590f2-1552-47bf-aabf-e63a921551eb" ChangeDateTime="05/09/2022 02:25:49">
+    <Property Name="ElementName" Value="[dbo].[TEL_VVOD].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_VVOD]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_PARAM" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b61537a8-b421-478a-b622-b68edcf8ed57" ChangeDateTime="05/09/2022 02:37:58">
+    <Property Name="ElementName" Value="[dbo].[TEL_TMP].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_TMP]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_TEL_TMP" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e257a751-25d5-41eb-8f62-330b6d7a4d9a" ChangeDateTime="05/09/2022 02:50:16">
+    <Property Name="ElementName" Value="[dbo].[TEL_MVZ].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_MVZ]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_TEL_MVZ" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="71149047-17bd-4740-acbe-3f964adab54c" ChangeDateTime="05/09/2022 02:57:02">
+    <Property Name="ElementName" Value="[dbo].[TEL_OTKL].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TEL_OTKL]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_TEL_OTKL" />
+  </Operation>
+</Operations>

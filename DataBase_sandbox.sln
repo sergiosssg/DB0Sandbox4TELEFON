@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DataBase_sandbox", "DataBase_sandbox.sqlproj", "{C3644099-70CE-41A2-AC9A-6484D64ECE41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3644099-70CE-41A2-AC9A-6484D64ECE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3644099-70CE-41A2-AC9A-6484D64ECE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3644099-70CE-41A2-AC9A-6484D64ECE41}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C3644099-70CE-41A2-AC9A-6484D64ECE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3644099-70CE-41A2-AC9A-6484D64ECE41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3644099-70CE-41A2-AC9A-6484D64ECE41}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E174BC6A-A654-4432-9AD8-A120BB6C5B1F}
+	EndGlobalSection
+EndGlobal
